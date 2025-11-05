@@ -164,19 +164,20 @@ img {
 }
 
 .orders {
+    font-family: 'Roboto', sans-serif;
     background-color: #4d5ae5;
-    border: none;
+    color: #ffffff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    cursor: pointer;
-    margin: 64px;
+    letter-spacing: 0.64px;
     min-width: 169px;
-    display: block;
-    border-radius: 4px;
     height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
 }
 
 
@@ -280,7 +281,8 @@ img {
 
 .ourteam-item {
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
+
 }
 
 .ourteam-name {
