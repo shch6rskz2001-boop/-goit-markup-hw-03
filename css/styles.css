@@ -192,9 +192,8 @@ img {
 
 
 .principles-item {
-    gap: 24px;
-    margin: 0;
-    width: calc((100% - 72px) / 4);
+    text-align: start;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 
 }
 
