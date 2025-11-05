@@ -337,3 +337,8 @@ img {
     color: #f4f4fd;
 
 }
+
+.footer-item {
+    display: inline-block;
+    margin-bottom: 16px;
+}
