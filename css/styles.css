@@ -31,7 +31,8 @@ p {
 }
 
 img {
-    block-size:
+    block-size;
+    display: block
 }
 
 .conteiner {
