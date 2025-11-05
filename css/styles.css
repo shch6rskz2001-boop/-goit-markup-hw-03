@@ -30,6 +30,10 @@ p {
     margin: 0;
 }
 
+img {
+    block-size:
+}
+
 .conteiner {
     max-width: 1158px;
     padding: 0 15px;
@@ -149,7 +153,6 @@ p {
     max-width: 572px;
     margin-bottom: 48px;
     margin: 0 auto;
-    width: calc((100% - 72) /4);
 }
 
 .orders {
@@ -176,8 +179,9 @@ p {
 .principles-list {
     display: flex;
     gap: 24px;
-    margin-bottom: 120px;
-    width: calc((100% - 72) /4);
+    margin-bottom: 8px;
+
+
 
 }
 
@@ -195,7 +199,8 @@ p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    width: calc((100% - 72) /4);
+    width: calc((100% - 72px) /4);
+
 }
 
 .principles-text {
@@ -243,12 +248,19 @@ p {
     gap: 24px;
     margin: 0;
     padding: 16px 16px 32px;
-    width: calc((100% - 72) / 3);
+    margin: 0;
+    width: calc((100% - 72px) / 4);
     margin: 0;
 }
 
-
-
+.ourteam-item {
+    padding: 120px 0 120px;
+    gap: 24px;
+    padding: 120px 0 120px;
+    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .ourteam-name {
     font-weight: 500;
@@ -295,6 +307,11 @@ p {
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
+    display: flex;
+    margin:
+
+
 }
 
 .logo {
