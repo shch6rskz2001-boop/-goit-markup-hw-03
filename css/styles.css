@@ -31,7 +31,6 @@ p {
 }
 
 img {
-    block-size;
     display: block
 }
 
@@ -310,9 +309,6 @@ img {
     background-color: #2E2F42;
     padding: 100px 0;
     display: flex;
-    margin:
-
-
 }
 
 .logo {
