@@ -199,8 +199,7 @@ img {
 
 .principles-item {
     text-align: start;
-    flex-basis: calc((100% - 3 * 24px) / 4);
-
+    width: calc((100% - 3 * 24px) / 4)
 }
 
 .principles-nav {
