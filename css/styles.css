@@ -238,6 +238,7 @@ img {
     text-align: center;
     text-transform: capitalize;
     padding: 120px;
+    margin-bottom: 72px;
 }
 
 
@@ -270,8 +271,8 @@ img {
     margin: 0;
     padding: 16px 16px 32px;
     margin: 0;
-    width: calc((100% - 72px) / 4);
     margin: 0;
+
 }
 
 .ourteam-item {
@@ -281,6 +282,8 @@ img {
     padding: 120px 0;
     padding-top: 120px;
     padding-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .ourteam-name {
@@ -290,14 +293,20 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
+.oourteam-desk {
+    padding: 32px 0;
+}
 
 .ourteam-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 .portfolio-title {
