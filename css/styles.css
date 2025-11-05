@@ -11,6 +11,9 @@ body {
 ul,
 ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
@@ -199,7 +202,7 @@ img {
 
 .principles-item {
     text-align: start;
-    flex-basis: calc((100% - 72px) / 4))
+    flex-basis: calc((100% - 72px) / 4)
 }
 
 .principles-nav {
@@ -242,7 +245,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    padding: 120px;
     margin-bottom: 72px;
 }
 
